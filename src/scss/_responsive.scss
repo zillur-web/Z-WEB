@@ -1,0 +1,255 @@
+@media screen and (max-width: 991px)  {
+    .container{
+        max-width: 720px;
+    }
+    header{
+        .navbar-brand{
+            img{
+                width: 70%;
+            }
+        }
+    }
+    .navbar-collapse{
+        overflow: auto;
+        background: #11141b;
+        text-align: center;
+        padding: 15px 15px;
+        margin: 0px;
+        .nav-link{
+            margin: 0px !important;
+        }
+    }
+    .about-cr{
+        .cont{
+            h3{
+                margin-left: 0px;
+                margin-top: 35px;
+            }
+        }
+    }
+    .testimonials{
+        .container-fluid {
+            width: auto;
+            margin-left: 0;
+          }
+        .item{
+            -webkit-transform: scale(1);
+            -ms-transform: scale(1);
+            transform: scale(1);
+            width: 100%;
+            .info{
+                .img{
+                    margin-left: auto;
+                    margin-right: auto;
+                    height: 200px;
+                    width: 200px;
+                }
+                p {
+                    border: none;
+                    padding-top: 15px;
+                  }
+            }
+        }
+    }
+    .about-testimonial{
+        .video{
+            display: none;
+        }
+        .testi-box{
+            margin: 0px 10px;
+        }
+    }
+    .pages-header{
+        padding: 15px 0px 70px 0px;
+        .cont{
+            h1{
+                font-size: 35px;
+            }
+        }
+    }
+    footer{
+        .item{
+            .logo{
+                img{
+                    width: 40%;
+                }
+            }
+        }
+    }
+    .about-team{
+        .content{
+            padding: 0px;
+        }
+    }
+    .about-min-area{
+        .img{
+            padding: 0px;
+            margin-bottom: 50px;
+        }
+    }
+    .main-contact{
+        .cont-info{
+            margin-top: 60px;
+        }
+    }
+}
+@media screen and (max-width: 767px) {
+    .container{
+        max-width: 540px;
+    }
+    header{
+        .navbar-brand{
+            img{
+                width: 60%;
+            }
+        }
+    }
+    .home-banner{
+        .img{
+            margin: auto;
+        }
+        .cont{
+            h1{
+                font-size: 25px !important;
+            }
+        }
+        &::after{
+            display: none;
+        }
+    }
+    
+    .sec-head{
+        h3{
+            font-size: 30px;
+        }
+    }
+    .about-cr{
+        .cont{
+            h3{
+                font-size: 40px;
+            }
+        }
+    }
+    .pages-header{
+        .cont{
+            h1{
+                font-size: 25px;
+            }
+        }
+    }
+    .about-testimonial {
+        .testi-box{
+            &::after{
+                left: -5px;
+                top: -5px;
+                right: -5px;
+                bottom: -5px;
+            }
+        }
+    }
+    footer{
+        .item{
+            h5{
+                font-size: 18px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 600px) {
+    .home-banner{
+        .cont{
+            h1{
+                font-size: 22px !important;
+            }
+        }
+        .states{
+            margin: auto;
+            .d-flex{
+               padding: 10px 0px;
+            }
+            .mail-us{
+                h6{
+                  font-size: $fz-12 !important;
+                }
+            }
+        }
+    }
+    footer{
+        .item{
+            .logo{
+                img{
+                    width: 35%;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 486px) {
+    header{
+        .navbar-brand{
+            img{
+                width: 50%;
+            }
+        }
+    }
+    .home-banner{
+        .cont{
+            h1{
+                font-size: 18px  !important;
+                font-weight: 400 !important;
+            }
+        }
+    }
+    .sec-head{
+        h3{
+            font-size: 22px;
+        }
+    }
+    .services{
+        .item-box{
+            padding: 40px 30px;
+            h6{
+                font-size: 16px;
+            }
+            p{
+                font-size: 14px;
+            }
+            .icon{
+                font-size: 36px;
+                width: 60px;
+            }
+        }
+        .cont{
+            padding-left: 0px !important;
+        }
+    }
+    .home-portfolio{
+        .single-portfolio{
+            .title{
+                h6{
+                    font-size: 17px;
+                }
+                p{
+                    font-size: 11px;
+                }
+            }
+        }
+    }
+    .testimonials{
+        .item{
+            .info{
+                .img{
+                    margin-left: auto;
+                    margin-right: auto;
+                    height: 100px;
+                    width: 100px;
+                }
+                p {
+                    border: none;
+                    padding-top: 15px;
+                    font-size: 16px !important;
+                }
+            }
+        }
+    }
+}

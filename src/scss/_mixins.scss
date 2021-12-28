@@ -1,0 +1,5 @@
+@mixin about-style ($size, $style, $margin){
+    font-size: $size;
+    text-align: $style;
+    margin: $margin;
+}
